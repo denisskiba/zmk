@@ -4,7 +4,7 @@
 if SHIELD_MODEL_0_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Model 0 Left"
+    default "Model 0 L"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
@@ -14,7 +14,7 @@ endif
 if SHIELD_MODEL_0_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Model 0 Right"
+    default "Model 0 R"
 
 endif
 
