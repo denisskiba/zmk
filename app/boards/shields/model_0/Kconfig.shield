@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_HELIX_LEFT
-    def_bool $(shields_list_contains,helix_left)
+    def_bool $(shields_list_contains,model_0_left)
 
 config SHIELD_HELIX_RIGHT
-    def_bool $(shields_list_contains,helix_right)
+    def_bool $(shields_list_contains,model_0_right)
