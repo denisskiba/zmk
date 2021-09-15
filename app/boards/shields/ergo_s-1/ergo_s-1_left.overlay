@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+ 
+#include "ergo_s-1.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&gpio1 8  GPIO_ACTIVE_HIGH>
+        , <&gpio1 6  GPIO_ACTIVE_HIGH>
+        , <&gpio1 10 GPIO_ACTIVE_HIGH>
+        , <&gpio1 15 GPIO_ACTIVE_HIGH>
+        , <&gpio0 3  GPIO_ACTIVE_HIGH>
+        , <&gpio1 3  GPIO_ACTIVE_HIGH>
+        , <&gpio1 14 GPIO_ACTIVE_HIGH>
+        ;
+};

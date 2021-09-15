@@ -3,7 +3,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config BOARD_MODEL_0
-	bool "model_0"
+config BOARD_ERGO_S-1
+	bool "ergo_s-1"
 	depends on SOC_NRF52840_QIAA
 

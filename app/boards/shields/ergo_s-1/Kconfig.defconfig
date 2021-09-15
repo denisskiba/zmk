@@ -1,24 +1,24 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_MODEL_0_LEFT
+if SHIELD_ERGO_S-1_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Model 0 Keyboard"
+    default "Ergo S-1"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MODEL_0_RIGHT
+if SHIELD_ERGO_S-1_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Model 0 R"
+    default "Ergo S-1 R"
 
 endif
 
-if SHIELD_MODEL_0_LEFT || SHIELD_MODEL_0_RIGHT
+if SHIELD_ERGO_S-1_LEFT || SHIELD_ERGO_S-1_RIGHT
 
 config ZMK_SPLIT
     default y

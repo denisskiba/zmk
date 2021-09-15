@@ -8,8 +8,8 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 
 / {
-	model = "Wizard Keyboards Model 0 V0";
-	compatible = "wizardkeyboards,model_0";
+	model = "Wizard Keyboards Ergo S-1";
+	compatible = "wizardkeyboards,ergo_s-1";
 
 	chosen {
 		zephyr,code-partition = &code_partition;
@@ -20,7 +20,7 @@
 	vbatt {
 		compatible = "zmk,battery-voltage-divider";
 		label = "BATTERY";
-		io-channels = <&adc 5>;
+		io-channels = <&adc 3>;
 		output-ohms = <2000000>;
 		full-ohms = <(2000000 + 806000)>;
 	};

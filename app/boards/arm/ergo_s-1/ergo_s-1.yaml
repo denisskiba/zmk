@@ -1,5 +1,5 @@
-identifier: model_0
-name: Wizard Keyboards Model 0 V0
+identifier: ergo_s-1
+name: Wizard Keyboards Ergo S-1
 type: mcu
 arch: arm
 toolchain:
