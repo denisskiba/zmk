@@ -4,5 +4,5 @@
 config SHIELD_ERGO_S-1_LEFT
     def_bool $(shields_list_contains,ergo_s-1_left)
 
-config SHIELD_ergo_s-1_RIGHT
+config SHIELD_ERGO_S-1_RIGHT
     def_bool $(shields_list_contains,ergo_s-1_right)
