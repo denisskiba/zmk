@@ -1,0 +1,26 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_MODEL_0_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Model 0 Keyboard"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MODEL_0_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Model 0 R"
+
+endif
+
+if SHIELD_MODEL_0_LEFT || SHIELD_MODEL_0_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
